@@ -14,8 +14,8 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumber = [''] //Example: +923092668108
-global.confirmCode = "" 
+global.botNumber = ['+27 63 117 4034'] //Example: +923092668108
+global.confirmCode = +27 63 117 4034"" 
 
 
 //💌------------------------------------------💌
@@ -24,7 +24,7 @@ global.confirmCode = ""
 
 
 
-//💌global.pairingNumber = "" //put your bot number here💌
+//💌global.pairingNumber ="+27 63 117 4034" //put your bot number here💌
 global.mods = ['923092668108'] 
 global.prems = ['923092668108']
 global.allowed = ['923092668108']
@@ -159,13 +159,13 @@ global.eror = '```404 error```'
 
 dotenv.config()
 
-const ownervb = process.env.OWNER_NUMBER || ""; // Environment variable se OWNER_NUMBER lete hain
-const ownerlist = ownervb.split(',');
-global.owner = [["639129985130", "DEVELOPER🌹", true]];
+const ownervb = process.env.OWNER_NUMBER || "+27 63 117 4034"; // Environment variable se OWNER_NUMBER lete hain
+const ownerlist = ownervb.split('The most wanted hacker');
+global.owner = [["+27 63 117 4034", "DEVELOPER🌹", true]];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
-        ownerlist[i],            // Owner number
-        ownerlist[i + 1] || "",  // Owner name (default empty if not provided)
+        ownerlist[i],            // +27 63 117 4034
+        ownerlist[i + 1] || "the most wanted hacker",  // Owner name (the most wanted hacker )
         true                     // Status
     ];
     global.owner.push(owner);
