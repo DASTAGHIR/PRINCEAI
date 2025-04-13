@@ -129,13 +129,13 @@ global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
 //Sticker WM
 global.wm = process.env.BOT_NAME
 global.botname = process.env.BOT_NAME
-global.princebot = '🛡️𝘗𝘙𝘐𝘕𝘊𝘌-𝘉𝘖𝘛-𝘔𝘋🛡️'
+global.princebot = '🛡️ibRAR-𝘉𝘖𝘛-𝘔𝘋🛡️'
 global.packname = process.env.PACK_NAME
-global.author = 'Prince♥️' 
+global.author = 'ibRAR♥️' 
 global.princeig = 'https://www.instagram.com' 
-global.princegp = 'https://whatsapp.com/channel/0029VaKNbWkKbYMLb61S1v11'
+global.princegp = 'https://whatsapp.com/channel/0029VadxSMdHltY9reCg283T'
 global.menuvid = 'https://i.imgur.com/GFAAXqw.mp4'
-global.Princesc = 'https://github.com/PRINCE-GDS/THE-PRINCE-BOT' 
+global.Princesc = 'https://github.com/PRINCE-GDS/THE-ibRAR-BOT' 
 global.princeyt = 'https://youtube.com/'
 global.Princelog = 'https://i.imgur.com/cUvIv5w.jpeg'
 global.thumb = fs.readFileSync('./lib/source/Prince.png')
@@ -161,7 +161,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER || ""; // Environment variable se OWNER_NUMBER lete hain
 const ownerlist = ownervb.split(',');
-global.owner = [["639129985130", "DEVELOPER🌹", true]];
+global.owner = [["923261334689", "DEVELOPER🌹", true]];
 for (let i = 0; i < ownerlist.length; i += 2) {
     const owner = [
         ownerlist[i],            // Owner number
