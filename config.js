@@ -14,7 +14,7 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumber = [''] //Example: +923092668108
+global.botNumber = ['923498776243'] //Example: +923092668108
 global.confirmCode = "" 
 
 
@@ -39,7 +39,7 @@ global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
 global.apis = 'https://delirius-apiofc.vercel.app'
 global.openai_key = 'sk-...OzYy' /* Get your ApiKey at this link: https://platform.openai.com/account/api-keys */
-global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
+global.openai_org_id = 'Prince~scl/fi/2qmmbrhxutdiuqlgilm1l/4qdOAmCCBJ.json?rlkey=bcajh5zb2vnzvchbaafn7hy3n&dl=0'
 //💌------------------------------------------💌
 
 
