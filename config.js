@@ -15,7 +15,7 @@ import dotenv from 'dotenv'
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
 global.botNumber = [''] //Example: +923092668108
-global.confirmCode = "" 
+global.confirmCode = "Prince~scl/fi/f8ud26ohnx3vjtnlc604v/zX9u0odHJo.json?rlkey=kvqvanogs4hu5acq4xv40014b&dl=0" 
 
 
 //💌------------------------------------------💌
