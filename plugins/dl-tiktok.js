@@ -1,1 +1,57 @@
-const _0x3f86e4=_0x3e33;(function(_0x39eace,_0x5795a9){const _0x2e0172=_0x3e33;const _0xc7dbc9=_0x39eace();while(!![]){try{const _0x2f468d=-parseInt(_0x2e0172(0x1fc))/(0x1*0x243+0x1683+-0x18c5)*(-parseInt(_0x2e0172(0x20c))/(-0x8*0x173+-0x1111+-0x29*-0xb3))+parseInt(_0x2e0172(0x213))/(0xfb7+-0x232+0xb6*-0x13)*(-parseInt(_0x2e0172(0x20e))/(0x11c9+0x3f1*-0x8+0xdc3))+parseInt(_0x2e0172(0x1f7))/(-0x14c5+-0x223b+0x3705)+parseInt(_0x2e0172(0x1fa))/(0x99e*-0x2+0x34*0x56+-0x1ca*-0x1)+parseInt(_0x2e0172(0x202))/(0x66*-0x3+0xe66*-0x1+0xf9f)*(-parseInt(_0x2e0172(0x201))/(0x1297+-0x1633*-0x1+-0x1461*0x2))+-parseInt(_0x2e0172(0x1f9))/(-0x897+0x50*0x45+-0xcf0)+parseInt(_0x2e0172(0x205))/(0xe5f*0x2+-0x1*-0x4f3+-0x21a7);if(_0x2f468d===_0x5795a9){break;}else{_0xc7dbc9['push'](_0xc7dbc9['shift']());}}catch(_0xf8aec2){_0xc7dbc9['push'](_0xc7dbc9['shift']());}}}(_0x226c,0x52e97*0x2+-0x218*-0xd01+-0x17e388));import _0x77a2e from'node-fetch';let handler=async(_0x2a3fdc,{conn:_0x391298,args:_0x339999,usedPrefix:_0x18166f,command:_0x32eb9a})=>{const _0x42b5a7=_0x3e33;const _0x58a158={'lEQYY':function(_0xd9cc87,_0x1299f9){return _0xd9cc87(_0x1299f9);}};if(!_0x339999[-0x3*0x707+-0x3c2+-0x1*-0x18d7])throw _0x42b5a7(0x1fb)+(_0x18166f+_0x32eb9a)+'*\x20tiktok\x20url\x20here...';_0x2a3fdc['react']('⏳');try{let _0x3ffa79=await _0x58a158['lEQYY'](_0x77a2e,_0x42b5a7(0x20b)+encodeURIComponent(_0x339999[-0x1*-0x1745+-0x1e*-0x113+0x377f*-0x1]));if(!_0x3ffa79['ok'])throw _0x42b5a7(0x207);let _0x46d410=await _0x3ffa79[_0x42b5a7(0x212)]();if(!_0x46d410[_0x42b5a7(0x20a)]||!_0x46d410[_0x42b5a7(0x1f4)])throw'❎\x20Failed\x20to\x20process\x20video.';let _0x422cff=_0x46d410[_0x42b5a7(0x1f4)][_0x42b5a7(0x204)][_0x42b5a7(0x1f2)][_0x42b5a7(0x208)](_0x154a6f=>_0x154a6f[_0x42b5a7(0x1f8)]===_0x42b5a7(0x210));if(!_0x422cff)throw _0x42b5a7(0x203);let _0x5ccbe5=_0x422cff['hd']||_0x422cff[_0x42b5a7(0x209)]||_0x422cff['wm'];await _0x391298[_0x42b5a7(0x1fe)](_0x2a3fdc[_0x42b5a7(0x1ff)],_0x5ccbe5,_0x42b5a7(0x1f5),'',_0x2a3fdc);_0x2a3fdc[_0x42b5a7(0x20f)]('✅');}catch(_0x23b1e4){console[_0x42b5a7(0x1f6)](_0x23b1e4);_0x2a3fdc['reply'](_0x42b5a7(0x20d));_0x2a3fdc[_0x42b5a7(0x20f)]('❌');}};function _0x3e33(_0x4795d2,_0x139956){const _0xad985e=_0x226c();_0x3e33=function(_0x1d6cb6,_0x4d24a1){_0x1d6cb6=_0x1d6cb6-(-0x166e+-0x3*-0x56d+0x819);let _0x221d08=_0xad985e[_0x1d6cb6];return _0x221d08;};return _0x3e33(_0x4795d2,_0x139956);}handler[_0x3f86e4(0x211)]=[_0x3f86e4(0x1f3)];function _0x226c(){const _0x18a3f9=['❎\x20Error:\x20Unable\x20to\x20download\x20video.\x20Please\x20check\x20the\x20link\x20or\x20try\x20again\x20later.','4SELzJS','react','video','help','json','2104878XFJXSK','media','tiktok\x20<link>','data','tiktok.mp4','error','1325055atvKrD','type','12939300PmYkkW','4432638NgsYfD','✳️\x20TikTok\x20ka\x20link\x20yahan\x20paste\x20karein:\x0a\x20*','372icqfmJ','tiktok','sendFile','chat','command','417936cdGaVH','182vAyXQo','❎\x20Video\x20not\x20found.','meta','23580280ecbkSj','tags','❎\x20Failed\x20to\x20fetch\x20video\x20details.\x20Please\x20try\x20again\x20later.','find','org','status','https://delirius-apiofc.vercel.app/download/tiktok?url=','5558bpPEVA'];_0x226c=function(){return _0x18a3f9;};return _0x226c();}handler[_0x3f86e4(0x206)]=['downloader'];handler[_0x3f86e4(0x200)]=[_0x3f86e4(0x1fd),'tt','ttdl','tk'];export default handler;
+import fetch from 'node-fetch';
+
+let handler = async (m, { conn, args, usedPrefix, command }) => {
+    if (!args[0]) throw `✳️ TikTok ka link yahan paste karein:\n *${usedPrefix + command}* tiktok url here...`;
+    m.react('⏳'); 
+
+    try {
+        let res = await fetch(`https://api.apigratis.tech/downloader/tiktok?url=${encodeURIComponent(args[0])}`);
+        if (!res.ok) throw `❎ Failed to fetch content details. Please try again later.`;
+
+        let data = await res.json();
+        if (!data.status || !data.result) throw `❎ Failed to process content.`;
+
+        let result = data.result;
+
+        if (result.type === 'video') {
+            
+            let videoUrl = result.download.original || result.download.watermark;
+            if (!videoUrl) throw `❎ Video URL not found.`;
+
+
+            await conn.sendFile(m.chat, videoUrl, 'tiktok.mp4', '', m);
+        } else if (result.type === 'image') {
+
+            let images = result.download.images;
+            let audioUrl = result.download.music;
+
+            if (images && images.length > 0) {
+ 
+                for (let img of images) {
+                    await conn.sendFile(m.chat, img, 'tiktok_image.jpg', '', m);
+                }
+            } else {
+                throw `❎ No images found in the post.`;
+            }
+
+
+            if (audioUrl) {
+                await conn.sendFile(m.chat, audioUrl, 'tiktok_audio.mp3', '', m);
+            }
+        } else {
+            throw `❎ Unsupported content type.`;
+        }
+
+        m.react('✅');
+    } catch (error) {
+        console.error(error);
+        m.reply(`❎ Error: Unable to download content. Please check the link or try again later.`);
+        m.react('❌'); 
+    }
+};
+
+handler.help = ['tiktok <link>'];
+handler.tags = ['downloader'];
+handler.command = ['tiktok', 'tk', 'ttdl', 'tk'];
+
+export default handler;
