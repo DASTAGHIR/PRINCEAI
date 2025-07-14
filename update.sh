@@ -1,5 +1,5 @@
 #!/bin/bash
-BOT_DIR="PRINCEMD"
+BOT_DIR="PRINCE"
 BOT_REPO="https://github.com/DASTAGHIR/$BOT_DIR"
 
 GREEN='\033[32m'
