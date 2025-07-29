@@ -1,6 +1,6 @@
 {
 "name": "PRINCEAI",
-"version": "2.9.7", 
+"version": "2.9.8", 
 "homepage": ".",
 "description": "A Muslim WhatsApp User Bot",
 "main": "index.js",
@@ -35,18 +35,19 @@
     "@brandond/findthelyrics": "^2.0.5",
     "@vitalets/google-translate-api": "^9.2.0",
     "@bochilteam/scraper": "^5.0.1",
-    "@whiskeysockets/baileys": "github:gatanina-li/baileys",
+    "@whiskeysockets/baileys": "github:EdderBot02/bail",
     "@seald-io/nedb": "^4.1.1",
     "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "api-dylux": "^1.7.2",
     "awesome-phonenumber": "^2.68.0",
-    "axios": "^1.1.2",
+    "axios": "^1.9.0",
     "mathjs": "^11.3.0",
     "buffer": "^6.0.3",
     "body-parser": "^1.20.2",
     "cfonts": "^3.2.0",
     "chess.js": "^1.0.0-beta.8",
+    "cheerio": "1.0.0-rc.12",
     "chalk": "^5.1.0",
     "colors": "^1.4.0",
     "countries-and-timezones": "^3.6.0",
@@ -118,14 +119,14 @@
     "yargs": "^17.3.1",
     "senna-fg": "^0.0.5",
     "yt-search": "^2.10.3",
-    "ytdl-core": "^4.11.5",
+    "@hiudyy/ytdl": "^0.2.3", 
+    "ytdl-core": "latest",
     "@xct007/frieren-scraper": "^0.0.2"
   },
         "overrides": {
         "cache-manager": "5.2.2"
-    },
+     },
     "optionalDependencies": {
-    "cheerio": "npm:cheerio@1.0.0-rc.12"
-    
-  }
+  "cheerio": "1.0.0-rc.12"
+    } 
 }

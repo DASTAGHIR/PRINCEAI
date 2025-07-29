@@ -44,7 +44,7 @@
     "MENU_IMAGE": {
       "description": "put image url,url 👈🏻 like this as much as you want for menu image or leave it blank for default images",
       "required": false,
-      "value": ""
+      "value": "https://tinyurl.com/23nfeq4z"
     },
     "PREFIX": {
       "description": "put any one symbol here leave it Blank if you want to use multiple prefix",

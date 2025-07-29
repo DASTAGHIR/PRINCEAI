@@ -3,104 +3,123 @@
     "description": "whatsapp user bot",
     "logo": "https://qu.ax/lwgPL.jpg",
     "keywords": ["bot"],
-    "documentation-link": "https://shortsession.onrender.com",
-    "owner-verification":"shoroking38@gmail.com",
-  
-      "env": {
-    "SESSION_ID": {
-      "description": "put your session ID here in the box below",
-      "required": true,
-      "value": ""
-    },
-    "BOT_NAME": {
-      "description": "put your BOT a name",
-      "required": true,
-      "value": "PRINCE-BOT"
-    },
-    "OWNER_NUMBER": {
-      "description": "put your Number and name for Owner",
-      "required": true,
-      "value": "6281220527432,Prince♥️The Developer"
-    },
-    "owner_react_emojie": {
-      "description": "put one emojie for owner reacts",
-      "required": false,
-      "value": "🤍"
-    },
-    "MODE": {
-      "description": "choose bot mode public or private",
-      "required": true,
-      "value": "public"
-    },
-    "PREFIX": {
-      "description": "put any one symbol here leave it Blank if you want to use multiple prefix",
-      "required": false,
-      "value": "" 
-    },
-    "antidelete": {
-      "description": "Set 'private' to forward deleted messages only from private chats, 'all' to forward from both private and group chats, or 'false' to disable this feature.",
-      "required": false,
-      "value": "all"
-    },
-    "DATABASE_URL": {
-      "description": "put mongodb or postgres or princedb database url for bots better performance",
-      "required": false,
-      "value": ""
-    },
-    "ANTI_LINK": {
-      "description": "it will dlt links and kick user",
-      "required": false,
-      "value": "true"
-    },
-    "AutoReaction": {
-      "description": "make it true to react on chats",
-      "required": false,
-      "value": "false"
-    },
-    "autoreactions_emojies": {
-      "description": "put your favourite emojies for AutoReactions on chats or make it empty for all default emojies",
-      "required": false,
-      "value": "💛,🤍,💗,♥️,💞"
-    },
-    "STATUSVIEW": {
-      "description": "make it true to auto view status and likes",
-      "required": false,
-      "value": "true"
-    },
-    "StatusEmojies": {
-      "description": "Add your favorites emojies for status likes",
-      "required": false,
-      "value": "♥️,🤗,❤️,💞,❣️,💙,💛,🤍,💚,😍,🥰,💝,💖,💗,💓,💞,💕,❣️,💘,💟,🖤,🤎,💜,💫,🌸"
-    },
-    "STATUS_MSG": {
-      "description": "Status reply msg",
-      "required": false,
-      "value": "Your Status has been seen by Prince bot"
-    },
-    "REJECTSCALLS": {
-      "description": "reject calls",
-      "required": false,
-      "value": "false"
-    },
-    "CALLMSG": {
-      "description": "Call msg for reject calls",
-      "required": false,
-      "value": "For now calls are restricted by my owner"
-    },
-    "ANTIFAKE_USERS": {
-      "description": "Add numbers to a variable. The bot will remove users from the group for these numbers. If a number isn’t in the variable, the bot will not take any action. To target all numbers, use this format: 1,2,3,4,5,6,7,8,9. ",
-      "required": false,
-      "value": "1,212,63,44"
-    },
-    "PACK_NAME": {
-      "description": "put your stickers pack name",
-      "required": false,
-      "value": "Prince♥️"
-    },
-    "DL_MSG": {
-      "description": "Video downloader caption",
-      "required": true,
-      "value": "_*📥DOWNLOADED SUCCESSFULLY✅*_"
-    } 
-  }
+    "documentation-link": "https://prince-bot-pair-code.koyeb.app",
+    "owner-verification": "shoroking38@gmail.com",
+    "env": {
+        "SESSION_ID": {
+            "description": "put your session ID here in the box below",
+            "required": true,
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "put your BOT a name",
+            "required": true,
+            "value": "PRINCE-BOT"
+        },
+        "OWNER_NUMBER": {
+            "description": "put your Number and name for Owner",
+            "required": true,
+            "value": "639129985130,The Developer"
+        },
+        "owner_react_emojie": {
+            "description": "put one emojie for owner reacts",
+            "required": false,
+            "value": "🤍"
+        },
+        "MODE": {
+            "description": "choose bot mode public or private",
+            "required": true,
+            "value": "public"
+        },
+        "BUSINESS_MODE": {
+            "description": "If your deploying bot in WhatsApp Business then make it 👉🏻 true",
+            "required": true,
+            "value": "false"
+        },
+        "MENU_IMAGE": {
+            "description": "put image url,url 👈🏻 like this as much as you want for menu image or leave it blank for default images",
+            "required": false,
+            "value": ""
+        },
+        "PREFIX": {
+            "description": "put any one symbol here leave it Blank if you want to use multiple prefix",
+            "required": false,
+            "value": ""
+        },
+        "AlwaysOnline": {
+            "description": "make it true to be always online",
+            "required": false,
+            "value": "false"
+        },
+        "antidelete": {
+            "description": "Set 'private' to forward deleted messages only from private chats, 'all' to forward from both private and group chats, or 'false' to disable this feature.",
+            "required": false,
+            "value": "all"
+        },
+        "DATABASE_URL": {
+            "description": "put mongodb or postgres or princedb database url for bots better performance",
+            "required": false,
+            "value": ""
+        },
+        "ANTI_LINK": {
+            "description": "it will dlt links and kick user",
+            "required": false,
+            "value": "true"
+        },
+        "AutoReaction": {
+            "description": "Set to 'true' for reactions in all chats, 'group' for group chats only, 'private' for private chats only, or 'false' to disable",
+            "required": false,
+            "value": "false"
+        },
+        "autoreactions_emojies": {
+            "description": "put your favourite emojies for AutoReactions on chats or make it empty for all default emojies",
+            "required": false,
+            "value": "💛,🤍,💗,♥️,💞"
+        },
+        "STATUSVIEW": {
+            "description": "make it true to auto view status and likes",
+            "required": false,
+            "value": "true"
+        },
+        "StatusLikes": {
+            "description": "make it true to auto likes on status",
+            "required": false,
+            "value": "false"
+        },
+        "StatusEmojies": {
+            "description": "Add your favorites emojies for status likes",
+            "required": false,
+            "value": "♥️,🤗,❤️,💞,❣️,💙,💛,🤍,💚,😍,🥰,💝,💖,💗,💓,💞,💕,❣️,💘,💟,🖤,🤎,💜,💫,🌸"
+        },
+        "STATUS_MSG": {
+            "description": "Status reply msg",
+            "required": false,
+            "value": "Your Status has been seen by Prince bot"
+        },
+        "REJECTSCALLS": {
+            "description": "reject calls",
+            "required": false,
+            "value": "false"
+        },
+        "CALLMSG": {
+            "description": "Call msg for reject calls",
+            "required": false,
+            "value": "For now calls are restricted by my owner"
+        },
+        "ANTIFAKE_USERS": {
+            "description": "Add numbers to a variable. The bot will remove users from the group for these numbers. If a number isn’t in the variable, the bot will not take any action. To target all numbers, use this format: 1,2,3,4,5,6,7,8,9. ",
+            "required": false,
+            "value": "1,212,63,44"
+        },
+        "PACK_NAME": {
+            "description": "put your stickers pack name",
+            "required": false,
+            "value": "Prince♥️"
+        },
+        "DL_MSG": {
+            "description": "Video downloader caption",
+            "required": true,
+            "value": "_*📥DOWNLOADED SUCCESSFULLY✅*_"
+        }
+    }
 }
