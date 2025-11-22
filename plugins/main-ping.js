@@ -1,9 +1,38 @@
+import { exec } from 'child_process'
+import speed from 'performance-now'
 
+let handler = async (m, { conn }) => {
+  let thumbnail = 'https://www.guruapi.tech/K.jpg'
+  let fgg = { key: { fromMe: false, participant: `0@s.whatsapp.net`, remoteJid: 'status@broadcast' }, message: { contactMessage: { displayName: `GURU-BOT`, vcard: `BEGIN:VCARD\nVERSION:3.0\nN:;a,;;;\nFN:'GURU-BOT'\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`}}}
+  let pingMsg = await conn.sendMessage(m.chat, {text: 'Pinging...'}, {quoted: fgg})
 
+  let timestamp = speed()
 
+  await exec('neofetch --stdout', async (error, stdout) => {
 
+    let latency = (speed() - timestamp).toFixed(4)
 
+    await conn.relayMessage(m.chat, {
+      protocolMessage: {
+        key: pingMsg.key,
+        type: 14,
+        editedMessage: {
+          conversation: `
+          *⸙• 「「⸙」‎🌸🖥️*                 
+             
+        *ʟᴀᴛᴇɴᴄʏ: ${latency} _ᴍs_*
+                 🔐⚠️  
+    *🫀🄼 ⏜✩ ˻𝐈ʈͥ᥊ ϻaͣŋͫŋ̑ο̑˼ 𓃮•:)*` 
+        }
+      }
+    }, {})
 
+  })
 
+}
 
-const _0x2e0831=_0x3d67;function _0x1a5c(){const _0x506b1e=['meilm','Ram:','react','\x20*Milliseconds\x20(ms)*','ping','36187590PMiFjf','random','11eOZkjr','main','499282SfHIqU','error','pkIbf','length','neofetch\x20--stdout','3921552BhDJvx','4680SNiXoy','tags','speed','command','sendMessage','floor','utf-8','120EuppJs','10FHAHQl','118369DXdfvt','jgMGA','434464KUljgn','9676512XaETvI','remoteJid','1146TgbHaL','ADOIV','key'];_0x1a5c=function(){return _0x506b1e;};return _0x1a5c();}(function(_0x1934d0,_0x5354df){const _0x301aa9=_0x3d67;const _0x2f07c3=_0x1934d0();while(!![]){try{const _0x20343a=-parseInt(_0x301aa9(0x1f3))/(-0x2667+-0x3cf+-0x6b*-0x65)*(-parseInt(_0x301aa9(0x1f2))/(-0x1*-0xa21+0x2545+-0x9*0x544))+-parseInt(_0x301aa9(0x1e9))/(-0x2*0x5+0x236a+-0x235d)+parseInt(_0x301aa9(0x1f5))/(0x1cf9+0x6a*-0x5+-0x1ae3)+-parseInt(_0x301aa9(0x1ea))/(-0x2*0x12e1+0xe93+0x1734)*(parseInt(_0x301aa9(0x1d8))/(-0x189a*0x1+0xe44+0xa5c))+-parseInt(_0x301aa9(0x1e4))/(0x1bb4+0x5*0x6d1+-0x3dc2)*(parseInt(_0x301aa9(0x1f1))/(-0x1*-0x1655+-0x895+-0xdb8))+-parseInt(_0x301aa9(0x1d6))/(-0x14c*-0xb+-0xc15*-0x2+-0x2665*0x1)+-parseInt(_0x301aa9(0x1e0))/(0x141c*0x1+-0xb73*0x3+0x5*0x2db)*(-parseInt(_0x301aa9(0x1e2))/(0x14d9+-0x12b3+-0x21b));if(_0x20343a===_0x5354df){break;}else{_0x2f07c3['push'](_0x2f07c3['shift']());}}catch(_0x3691e4){_0x2f07c3['push'](_0x2f07c3['shift']());}}}(_0x1a5c,-0xf73fd*0x1+0x29026*0x1+0x176421));function _0x3d67(_0x28f592,_0x5eb5ec){const _0xc8652d=_0x1a5c();_0x3d67=function(_0x2f7d41,_0x4e4870){_0x2f7d41=_0x2f7d41-(-0x5dd+0x125c+-0xaa9*0x1);let _0x42fbea=_0xc8652d[_0x2f7d41];return _0x42fbea;};return _0x3d67(_0x28f592,_0x5eb5ec);}import _0x229a87 from'performance-now';import{exec}from'child_process';let handler=async(_0xaaa1ec,{conn:_0x2175b4})=>{const _0x198928=_0x3d67;const _0xd843f8={'meilm':'Failed\x20to\x20react:','pkIbf':function(_0x186ee9){return _0x186ee9();},'ADOIV':function(_0x3a6426){return _0x3a6426();},'eHDGC':function(_0x2947c5,_0x38e1a6){return _0x2947c5*_0x38e1a6;},'jgMGA':function(_0x1837f3,_0x542603,_0xf3bc08){return _0x1837f3(_0x542603,_0xf3bc08);}};let _0xa9564e=_0xd843f8[_0x198928(0x1e6)](_0x229a87);let _0x334681=_0xd843f8[_0x198928(0x1d9)](_0x229a87)-_0xa9564e;let _0x2eae32=['🟣','🟤','🔵','⚫','⚪','🟢','🟠','🟡'];let _0x4b24b8=_0x2eae32[Math[_0x198928(0x1ef)](_0xd843f8['eHDGC'](Math[_0x198928(0x1e1)](),_0x2eae32[_0x198928(0x1e7)]))];_0xd843f8[_0x198928(0x1f4)](exec,_0x198928(0x1e8),async(_0x7e27a5,_0x651142,_0x203744)=>{const _0x39de54=_0x198928;let _0x2bba91=_0x651142['toString'](_0x39de54(0x1f0));let _0x4e8739=_0x2bba91['replace'](/Memory:/,_0x39de54(0x1dc));try{let _0x164541=await _0xaaa1ec['reply'](_0x4b24b8+'\x20*Ping*\x20:\x20'+_0x334681['toFixed'](0x1*0x1a3d+-0xd30+-0xd09)+_0x39de54(0x1de));await _0xaaa1ec[_0x39de54(0x1dd)](_0x4b24b8);if(_0x164541&&_0x164541[_0x39de54(0x1da)]){await _0x2175b4[_0x39de54(0x1ee)](_0x164541[_0x39de54(0x1da)][_0x39de54(0x1d7)],{'react':{'text':_0x4b24b8,'key':_0x164541[_0x39de54(0x1da)]}});}}catch(_0x55a176){console[_0x39de54(0x1e5)](_0xd843f8[_0x39de54(0x1db)],_0x55a176);}});};handler['help']=['ping'];handler[_0x2e0831(0x1eb)]=[_0x2e0831(0x1e3)];handler[_0x2e0831(0x1ed)]=[_0x2e0831(0x1df),_0x2e0831(0x1ec)];export default handler;
+handler.help = ['ping']
+handler.tags = ['main']
+handler.command = ['ping', 'speed'] 
+
+export default handler
